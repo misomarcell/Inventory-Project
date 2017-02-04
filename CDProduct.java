@@ -2,9 +2,9 @@ public class CDProduct extends Product{
 
 	public int numOfTracks;
 	
-	public CDProduct(int tracks)
+	public CDProduct(String name, int price, int tracks)
 	{
-		super(productName, productPrice);
+		super(name, price);
 		numOfTracks = tracks;
 	}
 	
