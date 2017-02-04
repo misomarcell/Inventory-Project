@@ -2,9 +2,9 @@ public class BookProduct extends Product{
 
 	public int pageSize;
 	
-	public BookProduct(int size)
+	public BookProduct(String name, int price, int size)
 	{
-		super(productName, productPrice);
+		super(name, price);
 		pageSize = size;
 	}
 }
